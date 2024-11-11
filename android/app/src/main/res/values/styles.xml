@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <style name="LaunchBlackTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <style name="NormalBlackTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+    
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>
